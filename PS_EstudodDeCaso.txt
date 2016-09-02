@@ -1,0 +1,87 @@
+- Projeto
+- Empresa
+- Coloboradores
+- Situação do Projeto
+- Cadastro de Departamento
+
+
+1 - Projeto:
+_ nome
+_ data de início
+_ data de conclusão
+_ orçamento
+_ descrição
+_ situação:
+em andamento, em atraso, paralisado, cancelado e concluido.
+
+2 - Em Andamento:
+quando o projeto foi instanciado.
+
+Troca da situação:
+- Quando
+- Motivo
+- Quem
+
+3 - Departamentos:
+
+_ nome
+_ descrição
+_ orçamento
+_ email
+_ telefone
+OBS: soma dos orçamentos do projeto não pode ser maior que o orçamento do departamento
+
+4 -
+Colaboradores são alocados aos projetos 
+
+Cada departamento tem um gerente ue também é um colaborador.
+
+5 - Colaboradores:
+
+_ nome
+_ cpf
+_ sexo
+_ data de nascimento
+_ remuneração
+_ email
+_ endereço
+_ telefone
+
+__________________________________
+
+1 - Telefone:
+
+_ Tipo(fixo ou móvel)
+_ número
+_ operadora
+
+2 - Endereço:
+
+_ tipo(rua/avenida/alameda)
+_ nome
+_ número
+_ complemento
+_ bairro
+_ cep
+_ cidade
+_ estado
+
+OBS: o endereço cadastrado deverá ser obtido através do sistema dos correios, caso não o possua será cadastrado no mesmo.
+
+3 - Colaborador pode estar ligado a mais de um projeto
+
+4 - Alocação de colaborador:
+
+_ carga horária
+_ situação(ativa/encerrada)
+
+5 - Colaboradores devem estar ligado ao menos a um projeto
+
+6 - 
+
+_ Listar projetos por departamento
+_ Filtrar pela situação dos projetos
+
+7 - Informar os colaboradores que estão em um projeto por período
+
+8 - Verificar se o orçamento de todos os projetos não ultrapassam o de seu departamento 
